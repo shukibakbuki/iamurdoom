@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  tags:
+    - Doctor
+    - Doom
+  name: I-Am-your-doom
+  description: Repo
+  links:
+    - url: https://github.com/shukibakbuki/iamurdoom
+      title: Github Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
+  system: repos
